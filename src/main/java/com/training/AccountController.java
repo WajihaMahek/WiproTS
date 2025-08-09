@@ -10,4 +10,9 @@ public class AccountController {
     public String getStatus() {
         return "Telecom Service is up and running.";
     }
+
+    @GetMapping("/hello")
+  public String sayHello(){
+    return "hellop devops";
+  }
 }
